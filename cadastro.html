@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <title>Tela de Cadastro</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background: #f4f4f4;
+        }
+        header {
+            background: #1e3a5f;
+            color: white;
+            padding: 10px;
+            font-size: 20px;
+        }
+        .footer {
+            background: #1e3a5f;
+            color: white;
+            padding: 150px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Futebol Style</h1>
+    </header>
+    <head>
+        <title>Cadastro</title>
+        <script src="cadastro.js":></script>
+    </head>
+    <body>
+        <ul style="text-align: center;">
+            <form id="form-cadastro">
+              <p><strong>Nome: <input type="text" name="nome" id="nome"/></p></strong> 
+              <p><strong>Data de Nascimento : <input type="date" name="data_nascimento" id="data_nascimento"/></p></strong> 
+              <p><strong>CPF/CNPJ : <input type="text" name="CPF_CNPJ" id="CPF_CNPJ" min="" max=""/></p></strong>
+              <p><strong>Email : <input type = "email" name="email" id="email"/></p> </strong> 
+              <p><strong>Celular :<input type="tel" name="Celular" maxlength="11" id="Celular"></strong></p> 
+              <p><strong>Senha : <input type="password" name="senha" id="senha"></p></strong>
+              <input type = "button" value="Cadastrar" onclick="cadastro()"/>
+            </ul>
+            </form>
+    </body>
+    <div class="footer">
+        <p>&copy; 2025 Futebol Style - Todos os direitos reservados.</p>
+    </div>
+</body>
+</html>
